@@ -11,33 +11,12 @@ type ExperienceProps = {
 
 const experiences: ExperienceProps[] = [
   {
-    title: "Senior Software Engineer",
-    company: "Tech Innovations Inc.",
-    period: "2021 - Present",
+    title: "Construction Site supervisor",
+    company: "Darshan Constructions",
+    period: "2023 - Present",
     description: [
-      "Led the development of a React-based dashboard used by over 500 enterprise customers",
-      "Implemented CI/CD pipelines that reduced deployment time by 70%",
-      "Mentored junior developers and conducted code reviews"
-    ]
-  },
-  {
-    title: "Frontend Developer",
-    company: "Digital Solutions LLC",
-    period: "2019 - 2021",
-    description: [
-      "Developed responsive web applications using React and TypeScript",
-      "Optimized website performance, improving load times by 40%",
-      "Collaborated with UX designers to implement pixel-perfect interfaces"
-    ]
-  },
-  {
-    title: "Junior Web Developer",
-    company: "WebCraft Studios",
-    period: "2017 - 2019",
-    description: [
-      "Built and maintained client websites using HTML, CSS, and JavaScript",
-      "Implemented responsive designs and ensured cross-browser compatibility",
-      "Participated in agile development cycles and sprint planning"
+      "Led the execution of multistory residential buildings",
+      "Interior works"
     ]
   }
 ];
@@ -48,7 +27,7 @@ const ExperienceSection = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-serif font-bold mb-2 text-center">Work Experience</h2>
         <p className="text-foreground/70 text-center mb-12 max-w-2xl mx-auto">
-          My professional journey in software development across different companies and roles.
+          My professional journey in civil construction field.
         </p>
         <div className="space-y-6">
           {experiences.map((exp, index) => (
