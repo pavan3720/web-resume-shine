@@ -100,7 +100,7 @@ const ContactSection = () => {
                     </div>
                     <div>
                       <h4 className="font-medium">Email</h4>
-                      <a href="mailto:john.doe@example.com" className="text-foreground/70 hover:text-primary transition-colors">john.doe@example.com</a>
+                      <a href="mailto:pavanpujar37@gmail.com" className="text-foreground/70 hover:text-primary transition-colors">pavanpujar37@gmail.com</a>
                     </div>
                   </div>
                   
@@ -110,7 +110,7 @@ const ContactSection = () => {
                     </div>
                     <div>
                       <h4 className="font-medium">Location</h4>
-                      <p className="text-foreground/70">San Francisco, California</p>
+                      <p className="text-foreground/70">Bangalore, India</p>
                     </div>
                   </div>
                 </div>
