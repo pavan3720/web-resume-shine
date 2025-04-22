@@ -9,11 +9,11 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="text-xl font-serif font-bold mb-4 md:mb-0">
-            John Doe
+          Pavan P G
           </div>
           
           <div className="text-sm text-primary-foreground/80">
-            &copy; {currentYear} John Doe. All rights reserved.
+            &copy; {currentYear} Pavan P G. All rights reserved.
           </div>
           
           <div className="mt-4 md:mt-0">
