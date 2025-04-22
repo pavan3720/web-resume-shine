@@ -5,7 +5,7 @@ import ScrollAnimation from "./ScrollAnimation";
 import SkillsProgress from "./SkillsProgress";
 
 const skills = {
-  frontend: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React", "Vue.js", "Redux", "Tailwind CSS", "SASS"],
+  frontend: ["Estimation", "Quality Check", "Manpower Handling", "Design", "Execution"],
   backend: ["Node.js", "Express", "Python", "Django", "RESTful APIs", "GraphQL", "MongoDB", "PostgreSQL"],
   tools: ["Git", "Docker", "AWS", "CI/CD", "Webpack", "Jest", "Agile/Scrum", "Figma"]
 };
@@ -25,7 +25,7 @@ const SkillsSection = () => {
               <CardHeader>
                 <CardTitle className="flex items-center">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2 text-primary"><path d="M2 12.5h20"/><path d="M7 19v-14"/><path d="M12 3v18"/><path d="M17 19v-14"/></svg>
-                  Frontend Development
+                  Construction Supervisor
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -40,7 +40,7 @@ const SkillsSection = () => {
             </Card>
           </ScrollAnimation>
           
-          <ScrollAnimation className="opacity-0 transform translate-y-4 transition-all duration-700" threshold={0.1}>
+          {/* <ScrollAnimation className="opacity-0 transform translate-y-4 transition-all duration-700" threshold={0.1}>
             <Card className="border border-primary/10 hover:border-primary/30 transition-all duration-300 h-full">
               <CardHeader>
                 <CardTitle className="flex items-center">
@@ -58,9 +58,9 @@ const SkillsSection = () => {
                 </div>
               </CardContent>
             </Card>
-          </ScrollAnimation>
+          </ScrollAnimation> */}
           
-          <ScrollAnimation className="opacity-0 transform translate-y-4 transition-all duration-700" threshold={0.1}>
+          {/* <ScrollAnimation className="opacity-0 transform translate-y-4 transition-all duration-700" threshold={0.1}>
             <Card className="border border-primary/10 hover:border-primary/30 transition-all duration-300 h-full">
               <CardHeader>
                 <CardTitle className="flex items-center">
@@ -78,14 +78,14 @@ const SkillsSection = () => {
                 </div>
               </CardContent>
             </Card>
-          </ScrollAnimation>
+          </ScrollAnimation> */}
         </div>
         
-        <ScrollAnimation className="opacity-0 transform translate-y-4 transition-all duration-700" threshold={0.2}>
+        {/* <ScrollAnimation className="opacity-0 transform translate-y-4 transition-all duration-700" threshold={0.2}>
           <SkillsProgress />
-        </ScrollAnimation>
+        </ScrollAnimation> */}
         
-        <ScrollAnimation className="opacity-0 transform translate-y-4 transition-all duration-700" threshold={0.2}>
+        {/* <ScrollAnimation className="opacity-0 transform translate-y-4 transition-all duration-700" threshold={0.2}>
           <div className="mt-12 p-6 bg-accent rounded-lg">
             <h3 className="text-xl font-serif font-semibold mb-4 text-center">Professional Strengths</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 text-center">
@@ -96,7 +96,7 @@ const SkillsSection = () => {
               ))}
             </div>
           </div>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
       </div>
     </section>
   );

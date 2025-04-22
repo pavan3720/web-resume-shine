@@ -10,22 +10,22 @@ type EducationProps = {
 
 const educations: EducationProps[] = [
   {
-    degree: "Master of Computer Science",
-    institution: "University of Technology",
-    period: "2015 - 2017",
-    details: "Focused on advanced algorithms and software architecture. Graduated with honors."
+    degree: "Civil Engineering",
+    institution: "Visvesvaraya Technological University",
+    period: "2015 - 2021",
+    details: "Gain Knowledge in Building Construction, Design And Cost Estimation"
   },
   {
-    degree: "Bachelor of Science in Computer Engineering",
-    institution: "State University",
-    period: "2011 - 2015",
-    details: "Gained strong fundamentals in programming, data structures, and system design."
+    degree: "PUC",
+    institution: "SIR MV PU College",
+    period: "2013 - 2015",
+    details: "Gained strong fundamentals in physics, chemistry, and Mathematics."
   },
   {
-    degree: "Web Development Bootcamp",
-    institution: "Code Academy",
-    period: "Summer 2014",
-    details: "Intensive 12-week program covering full-stack web development technologies."
+    degree: "UPSC",
+    institution: "Vajiram and Ravi",
+    period: "2022 - 2023",
+    details: "Intensive 14-Months program covering complete knowledge about UPSC syllabus."
   }
 ];
 
@@ -53,7 +53,7 @@ const EducationSection = () => {
           ))}
         </div>
         
-        <div className="mt-12">
+        {/* <div className="mt-12">
           <h3 className="text-xl font-serif font-semibold mb-6 text-center">Certifications</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {[
@@ -71,7 +71,7 @@ const EducationSection = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -12,31 +12,10 @@ type ProjectProps = {
 
 const projects: ProjectProps[] = [
   {
-    title: "E-commerce Platform",
-    description: "A full-featured e-commerce platform with user authentication, product management, cart functionality, and payment integration.",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-    image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-    link: "#"
-  },
-  {
-    title: "Task Management System",
-    description: "A comprehensive task management application with drag-and-drop functionality, team collaboration features, and real-time updates.",
-    technologies: ["Vue.js", "Firebase", "Tailwind CSS"],
-    image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-    link: "#"
-  },
-  {
-    title: "Weather Dashboard",
-    description: "A weather application that provides current conditions and forecasts for any location, with beautiful visualizations and alerts.",
-    technologies: ["JavaScript", "Chart.js", "Weather API"],
-    image: "https://images.unsplash.com/photo-1530563885674-66db50a1af19?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-    link: "#"
-  },
-  {
-    title: "Fitness Tracker",
-    description: "A mobile-first application for tracking workouts, nutrition, and fitness goals with progress visualization.",
-    technologies: ["React Native", "Express", "PostgreSQL"],
-    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    title: "Nutrients Recovery from water",
+    description: "Recovering the Nutrients like Nitrate and Phosphate from Lake water",
+    technologies: ["Micro-beeds", "Nano-Technology"],
+    image: "https://img.freepik.com/premium-photo/scientist-working-with-chemical-reaction-chemistry-laboratory-close-up-scientist-making-research-lab-chemical-molecular-blue-chemistry-science-laboratory-background_263512-1545.jpg?w=2000",
     link: "#"
   },
 ];

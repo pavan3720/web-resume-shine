@@ -8,7 +8,7 @@ const HeroSection = () => {
   
   useEffect(() => {
     // Typing animation for the role text
-    const text = "Senior Software Engineer";
+    const text = "Civil Engineer";
     const roleElement = document.getElementById("role-text");
     
     if (roleElement) {
@@ -40,15 +40,15 @@ const HeroSection = () => {
         <div className="flex flex-col-reverse md:flex-row items-center">
           <ScrollAnimation className="md:w-1/2 opacity-0 transform transition-all duration-700">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold mb-4">
-              <span className="text-primary">John Doe</span>
+              <span className="text-primary">Pavan P G</span>
             </h1>
             <h2 className="text-xl md:text-2xl font-medium text-foreground/80 mb-6">
               <span id="role-text" className="inline-block"></span>
               <span className="animate-pulse">|</span>
             </h2>
             <p className="text-foreground/70 mb-8 max-w-xl">
-              A passionate software engineer with 5 years of experience building web applications with
-              modern technologies. I specialize in creating user-friendly interfaces and scalable backend systems.
+              A passionate civil engineer with 2 years of experience building residential flats,
+              modern technologies. I specialize in building budget friendly and comfortable homes.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button onClick={downloadResume} className="bg-primary hover:bg-primary/90">
@@ -67,8 +67,8 @@ const HeroSection = () => {
               className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-primary/20 animate-border-pulse"
             >
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3" 
-                alt="John Doe" 
+                src="https://i.postimg.cc/mr49hQmv/Whats-App-Image-2025-04-22-at-6-16-14-PM.jpg" 
+                alt="Pavan P G" 
                 className="w-full h-full object-cover"
               />
             </div>
