@@ -51,7 +51,7 @@ const Header = () => {
     )}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="text-xl font-serif font-bold">
-          <span className="text-primary">John</span> Doe
+          <span className="text-primary">Pavan</span> P G
         </div>
         <nav className="hidden md:block">
           <ul className="flex space-x-8">
